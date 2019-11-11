@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title h1 {
+  font-weight: 300;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.days {
+  margin: auto;
+  padding: 20px;
+}
+
+.day {
+  margin: auto;
+  width: calc(100% / 4 - 25px);
+  max-height: 400px;
+  box-shadow: 2px 2px 9px #000000f0;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.day h2 {
+  border-bottom: 1px solid #ffffff14;
+  padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.day img {
+  width: 98%;
+}
+
+.day:hover {
+  opacity: 0.9;
+  background-color: #101010;
+  color: #fff4f4;
+}
+
+.techs {
+  margin: 5px auto;
+  padding: 5px;
+  text-align: left;
+}
+
+.tech {
+  background-color: #2055ff;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  width: fit-content;
+  display: inline-block;
+  margin: 5px;
+  cursor: default;
+}
+
+.viewBtn a {
+  float: right;
+  margin: 10px;
+  background-color: #ff5656;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px black;
+  border: 1px solid black;
+}

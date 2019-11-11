@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: 'Lato', sans-serif;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  width: 40%;
+  background-color:  #0a9c92d6;
+  padding: 20px;
+  margin: 10px auto;
+  color:  white;
+  box-shadow: 6px 6px 5px #0000007d;
+  border: 1px solid #0e9992;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+form h1 {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.form-column-left, .form-column-right {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+.form-column-left label, .form-column-right input {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-column-left label {
+  border-left: 3px solid rgb(43, 43, 43);
+}
+
+.form-column-left label:hover {
+  border-left: 3px solid rgb(67, 251, 185);
+}
+
+.form-column-right input:focus, textarea:focus {
+  background-color: black;
+  color: white;
+}
+
+.submitContainer {
+  text-align: right;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color:  white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 3px  black;
+}
+
+.records {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+.records table {
+  width: 90%;
+  margin: 10px auto;
+  box-shadow: 6px 6px 5px #0000007d;
+  cursor: default;
+}
+
+.records table tr.header td {
+  font-weight: bold;
+  text-align: center;
+  background-color:  #09665d;
+  padding: 10px;
+  color:  #fff;
+  border: 0px solid  black;
+}
+
+.records table td {
+  border: 1px solid  #0d5969;
+  padding: 10px;
+  background-color:  #0a9c92a1;
+  max-width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.records-container {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#rpass {
+   filter:blur(3px);
+}
+#rpass:hover {
+  filter: blur(0px);
+  transition: ease 0.1s all;
+}
+
+textarea {
+  margin: 10px;
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+  height: 100px;
+  padding: 10px;
+  font-size: 14px;
+}
