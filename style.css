@@ -72,10 +72,21 @@ body {
   float: right;
   margin: 10px;
   background-color: #ff5656;
-  padding: 10px;
+  padding: 5px 10px;
   text-decoration: none;
   color: white;
   border-radius: 5px;
   box-shadow: 2px 2px 6px black;
   border: 1px solid black;
+  height: 42px;
+}
+
+.viewBtn a img {
+  width: 75px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.view a {
+  padding-top: 11px;
 }

@@ -14,7 +14,11 @@
   <div class="days">
     
     
+    <?php
+    $gitSlug = "//github.com/mycalhunter/100days/tree/master/";
+    $gitLogo = "//pngimg.com/uploads/github/github_PNG15.png";
     
+    ?>
     
     
     
@@ -27,11 +31,13 @@
         <p class="tech">Javascript</p>
         <p class="tech">jQuery</p>
       </div>
-      <div class="viewBtn">
-        <a href="/100days/1/" target="_blank">View Project</a>
+      <div class="viewBtn view">
+        <a href="/100days/1/" target="_blank">View</a>
       </div>
       <div class="viewBtn">
-        <a href="/100days/1/" target="_blank">View GitHub</a>
+        <a href="<? echo $gitSlug . '1' ?>" target="_blank">
+          <img src="<? echo $gitLogo ?>">
+        </a>
       </div>
     </div>
     
@@ -46,11 +52,32 @@
         <p class="tech">PHP</p>
         <p class="tech">MySQLi</p>
       </div>
-      <div class="viewBtn">
-        <a href="/100days/2/" target="_blank">View Project</a>
+      <div class="viewBtn view">
+        <a href="/100days/2/" target="_blank">View</a>
       </div>
       <div class="viewBtn">
-        <a href="/100days/2/" target="_blank">View GitHub</a>
+        <a href="<? echo $gitSlug . '2' ?>" target="_blank">
+          <img src="<? echo $gitLogo ?>">
+        </a>
+      </div>
+    </div>
+    
+    
+    <div class="day">
+      <h2>Day 3</h2>
+        <img src="/100days/images/day_3.png">
+      <div class="techs">
+        <p class="tech">HTML</p>
+        <p class="tech">CSS</p>
+        <p class="tech">jQuery</p>
+      </div>
+      <div class="viewBtn view">
+        <a href="/100days/3/" target="_blank">View</a>
+      </div>
+      <div class="viewBtn">
+        <a href="<? echo $gitSlug . '3' ?>" target="_blank">
+          <img src="<? echo $gitLogo ?>">
+        </a>
       </div>
     </div>
     

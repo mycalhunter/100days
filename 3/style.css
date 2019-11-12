@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(43, 43, 43);
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input {
+  display: block;
+  margin: 10px;
+}
+
+h2 {
+  color: white;
+}
+
+/* BUTTON */
+input[type="button"] {
+  width: 70px;
+  height: 30px;
+  background: linear-gradient(0deg, rgb(187, 187, 187) 0%, #f3f3f3 100%);
+  border: 1px solid #0000007a;
+  box-shadow: 2px 2px 3px #00000052;
+  border-radius: 3px;
+  color: #545454;
+  font-weight: bold;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+
+input[type="button"]:active {
+  color: black;
+  box-shadow: 2px 2px 3px rgb(45, 45, 45);
+}
+
+/* CHECKBOX */
+input[type="color"] {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: rgb(43, 43, 43);
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type="color"]:focus {
+  outline: none;
+}
+
+h3.coloroutput,
+h3.dateoutput,
+h3.datetimeoutput,
+h3.rangeoutput
+{
+  background-color: gray;  
+  display: inline-block;
+  vertical-align: middle;
+  padding: 4px;
+}
+
+h3.coloroutput span,
+h3.dateoutput span,
+h3.datetimeoutput span,
+h3.rangeoutput span
+{
+  background: orange;
+  padding: 4px 17px;
+  display: inline-block;
+  color: #000;
+}
+
+.getColor, .getDate, .getDateTime, .getRange {
+  display: inline-block;
+}
+
+input[type="file"] {
+  color: white;
+}
+
+.center-margin {
+  margin: auto;
+}
+
+.left-col, .right-col {
+  width: 40%;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #000000b8;
+  padding: 20px;
+  height: calc(100vh - 50px);
+}
