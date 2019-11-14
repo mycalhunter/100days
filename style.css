@@ -25,7 +25,7 @@ body {
 
 .day {
   margin: auto;
-  width: calc(100% / 4 - 25px);
+  width: calc(100% / 4 - 25px); /* 4 COLUMN */
   max-height: 400px;
   box-shadow: 2px 2px 9px #000000f0;
   display: inline-block;
@@ -43,6 +43,7 @@ body {
 
 .day img {
   width: 98%;
+  height: 201px;
 }
 
 .day:hover {
@@ -72,10 +73,47 @@ body {
   float: right;
   margin: 10px;
   background-color: #ff5656;
-  padding: 10px;
+  padding: 5px 10px;
   text-decoration: none;
   color: white;
   border-radius: 5px;
   box-shadow: 2px 2px 6px black;
   border: 1px solid black;
+  height: 42px;
+}
+
+.viewBtn a img {
+  width: 75px;
+  padding: 0;
+  vertical-align: middle;
+  height: auto;
+}
+
+.view a {
+  padding-top: 11px;
+}
+
+/* 3 COLUMN */
+@media only screen and (max-width: 1450px) {
+  .day {
+    vertical-align: top;
+    width: calc(100% / 3 - 25px);    
+  }
+}
+
+/* 2 COLUMN */
+@media only screen and (max-width: 1150px) {
+  .day {
+    width: calc(100% / 2 - 25px);    
+  }
+}
+
+/* 1 COLUMN */
+@media only screen and (max-width: 768px) {
+  .day {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+    height: 400px;
+  }
 }
