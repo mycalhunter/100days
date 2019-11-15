@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('images/background.jpg');
+  background-size: 100%;
+  background-repeat: repeat-y;
+  height: 100vh;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.page-btns {
+  display: block;
+  width: 100%;
+}
+
+.page-btn {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 4px;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+a .page-btn {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  background: linear-gradient(45deg, #6bd294, #ffffff);
+  box-shadow: 2px 2px 7px #00000091;
+  border: 1px solid #0404046b;
+}
+
+a .page-btn:hover {
+  background: rgb(222, 222, 222);
+}
+
+.card {
+  display: inline-block;
+  width: calc(100% / 5);
+  max-width: 250px;
+  min-height: 250px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #3ec2b5ed;
+  vertical-align: top;
+  font-size: 0.9em;
+}
+
+.container {
+  margin: 20px;
+}
+
+.title {
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+}
+
+.container h3 {
+  display: inline-block;
+  margin: auto 10px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: calc(100% / 4);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: calc(100% / 3);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: calc(100% / 2 - 20px);
+  }
+}

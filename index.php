@@ -89,10 +89,29 @@
         <p class="tech">MySQLi</p>
       </div>
       <div class="viewBtn view">
-        <a href="/100days/4/" target="_blank">View</a>
+        <a href="/100days/4/select.php" target="_blank">View</a>
       </div>
       <div class="viewBtn">
         <a href="<? echo $gitSlug . '4' ?>" target="_blank">
+          <img src="<? echo $gitLogo ?>">
+        </a>
+      </div>
+    </div>
+    
+    <div class="day">
+      <h2>Day 5</h2>
+        <img src="/100days/images/day_5.png">
+      <div class="techs">
+        <p class="tech">HTML</p>
+        <p class="tech">CSS</p>
+        <p class="tech">PHP</p>
+        <p class="tech">MySQLi</p>
+      </div>
+      <div class="viewBtn view">
+        <a href="/100days/5/" target="_blank">View</a>
+      </div>
+      <div class="viewBtn">
+        <a href="<? echo $gitSlug . '5' ?>" target="_blank">
           <img src="<? echo $gitLogo ?>">
         </a>
       </div>
