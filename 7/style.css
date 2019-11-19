@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: rgb(34, 34, 34);
+  color: rgb(227, 227, 227);
+  font-family: 'Alata', sans-serif;
+  height: 100%;
+}
+
+.label {
+  font-weight: 900;
+  display: inline-block;
+  padding: 5px 20px;
+  color: #667eab;
+  text-shadow: 2px 2px 3px black;
+}
+
+.container {
+  padding: 30px;
+}
+
+#map {
+  height: 50%;
+  width: 100%;
+  max-width: 960px;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+a.compare {
+  color: rgb(255, 92, 76);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a.compare:hover {
+  color: #667eab;
+}

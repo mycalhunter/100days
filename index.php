@@ -1,3 +1,9 @@
+<?php
+$gitSlug = "//github.com/mycalhunter/100days/tree/master/";
+$gitLogo = "//pngimg.com/uploads/github/github_PNG15.png";
+$viewSlug = "/100days/";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,16 +18,6 @@
   </div>
   
   <div class="days">
-    
-    
-    <?php
-    $gitSlug = "//github.com/mycalhunter/100days/tree/master/";
-    $gitLogo = "//pngimg.com/uploads/github/github_PNG15.png";
-    
-    ?>
-    
-    
-    
     <div class="day">
       <h2>Day 1</h2>
         <img src="/100days/images/day_1.png">
@@ -32,7 +28,7 @@
         <p class="tech">jQuery</p>
       </div>
       <div class="viewBtn view">
-        <a href="/100days/1/" target="_blank">View</a>
+        <a href="<? echo $viewSlug . "1" . "/" ?>" target="_blank">View</a>
       </div>
       <div class="viewBtn">
         <a href="<? echo $gitSlug . '1' ?>" target="_blank">
@@ -53,7 +49,7 @@
         <p class="tech">MySQLi</p>
       </div>
       <div class="viewBtn view">
-        <a href="/100days/2/" target="_blank">View</a>
+        <a href="<? echo $viewSlug . "2" . "/" ?>" target="_blank">View</a>
       </div>
       <div class="viewBtn">
         <a href="<? echo $gitSlug . '2' ?>" target="_blank">
@@ -72,7 +68,7 @@
         <p class="tech">jQuery</p>
       </div>
       <div class="viewBtn view">
-        <a href="/100days/3/" target="_blank">View</a>
+        <a href="<? echo $viewSlug . "3" . "/" ?>" target="_blank">View</a>
       </div>
       <div class="viewBtn">
         <a href="<? echo $gitSlug . '3' ?>" target="_blank">
@@ -89,7 +85,7 @@
         <p class="tech">MySQLi</p>
       </div>
       <div class="viewBtn view">
-        <a href="/100days/4/select.php" target="_blank">View</a>
+        <a href="<? echo $viewSlug . "4" . "/" ?>select.php" target="_blank">View</a>
       </div>
       <div class="viewBtn">
         <a href="<? echo $gitSlug . '4' ?>" target="_blank">
@@ -104,14 +100,52 @@
       <div class="techs">
         <p class="tech">HTML</p>
         <p class="tech">CSS</p>
+        <p class="tech">Javascript</p>
         <p class="tech">PHP</p>
         <p class="tech">MySQLi</p>
       </div>
       <div class="viewBtn view">
-        <a href="/100days/5/" target="_blank">View</a>
+        <a href="<? echo $viewSlug . "5" . "/" ?>" target="_blank">View</a>
       </div>
       <div class="viewBtn">
         <a href="<? echo $gitSlug . '5' ?>" target="_blank">
+          <img src="<? echo $gitLogo ?>">
+        </a>
+      </div>
+    </div>
+    
+    <div class="day">
+      <h2>Day 6</h2>
+        <img src="/100days/images/day_6.png">
+      <div class="techs">
+        <p class="tech">HTML</p>
+        <p class="tech">CSS</p>
+        <p class="tech">PHP</p>
+      </div>
+      <div class="viewBtn view">
+        <a href="<? echo $viewSlug . "6" . "/" ?>" target="_blank">View</a>
+      </div>
+      <div class="viewBtn">
+        <a href="<? echo $gitSlug . '6' ?>" target="_blank">
+          <img src="<? echo $gitLogo ?>">
+        </a>
+      </div>
+    </div>
+    
+    <div class="day">
+      <h2>Day 7</h2>
+        <img src="/100days/images/day_7.png">
+      <div class="techs">
+        <p class="tech">HTML</p>
+        <p class="tech">CSS</p>
+        <p class="tech">PHP</p>
+        <p class="tech">Javascript</p>
+      </div>
+      <div class="viewBtn view">
+        <a href="<? echo $viewSlug . "7" . "/" ?>" target="_blank">View</a>
+      </div>
+      <div class="viewBtn">
+        <a href="<? echo $gitSlug . '7' ?>" target="_blank">
           <img src="<? echo $gitLogo ?>">
         </a>
       </div>
