@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(27, 27, 27, 1);
+  color: rgb(235, 235, 235);
+  font-family: 'Alata', sans-serif;
+}
+
+#movies img, #movie img {
+  width: 100%;
+}
+
+.carousel-inner {
+  height: 390px;
+}
+
+.carousel-inner .carousel-item img {
+  height: 100%;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    margin: 10px 0;
+    background-color: #ffffff1f;
+    height: 540px;
+  }
+
+  #movies .col-md-3 img {
+    height: auto;
+  }
+  
+  #movies .col-md-3 h5 {
+    padding: 10px
+  }
+}
