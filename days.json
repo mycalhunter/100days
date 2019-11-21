@@ -1,67 +1,43 @@
 {
-  "days": [
-    {
+  "days": [{
       "day": 1,
-      "image": "/100days/images/day_1.png",
-      "techs": "HTML, CSS, Javascript, jQuery",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "HTML, CSS, Javascript, jQuery"
     },
     {
       "day": 2,
-      "image": "/100days/images/day_2.png",
-      "techs": "HTML, CSS, jQuery, PHP, MySQLi",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "HTML, CSS, jQuery, PHP, MySQLi"
     },
     {
       "day": 3,
-      "image": "/100days/images/day_3.png",
-      "techs": "HTML, CSS, jQuery",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "HTML, CSS, jQuery"
     },
     {
       "day": 4,
-      "image": "/100days/images/day_4.png",
-      "techs": "PHP, MySQLi",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "PHP, MySQLi"
     },
     {
       "day": 5,
-      "image": "/100days/images/day_5.png",
-      "techs": "HTML, CSS, Javascript, PHP, MySQLi",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "HTML, CSS, Javascript, PHP, MySQLi"
     },
     {
       "day": 6,
-      "image": "/100days/images/day_6.png",
-      "techs": "HTML, CSS, PHP",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "HTML, CSS, PHP"
     },
     {
       "day": 7,
-      "image": "/100days/images/day_7.png",
-      "techs": "HTML, CSS, PHP, Javascript, API",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "HTML, CSS, PHP, Javascript, API"
     },
     {
       "day": 8,
-      "image": "/100days/images/day_8.png",
-      "techs": "HTML, CSS, Javascript, jQuery, API",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "HTML, CSS, Javascript, jQuery, API"
     },
     {
       "day": 9,
-      "image": "/100days/images/day_9.png",
-      "techs": "HTML, CSS, Javascript",
-      "view": "/100days/",
-      "gitHub": "//github.com/mycalhunter/100days/tree/master/"
+      "techs": "HTML, CSS, Javascript"
+    },
+    {
+      "day": 10,
+      "techs": "HTML, JSON, jQuery"
     }
   ]
 }

@@ -20,15 +20,15 @@
             for (i = 0; i < f.length; i++) {
               var day = `<div class="day"> 
                           <h2>Day ${f[i].day} </h2> 
-                          <img src="${f[i].image}"> 
+                          <img src="/100days/images/day_${f[i].day}.png"> 
                           <div class="techs"> 
                             <p class="tech">${f[i].techs}</p> 
                           </div> 
                           <div class="viewBtn view"> 
-                            <a href="${f[i].view}${f[i].day}/" target="_blank">View</a> 
+                            <a href="/100days/${f[i].day}/" target="_blank">View</a> 
                           </div> 
                           <div class="viewBtn"> 
-                            <a href="${f[i].gitHub}${f[i].day}" target="_blank"> 
+                            <a href="//github.com/mycalhunter/100days/tree/master/${f[i].day}" target="_blank"> 
                               <img src="github-logo.png"> 
                             </a> 
                           </div>
