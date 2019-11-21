@@ -29,7 +29,7 @@
                           </div> 
                           <div class="viewBtn"> 
                             <a href="${f[i].gitHub}${f[i].day}" target="_blank"> 
-                              <img src="//pngimg.com/uploads/github/github_PNG15.png"> 
+                              <img src="github-logo.png"> 
                             </a> 
                           </div>
                         </div>`
