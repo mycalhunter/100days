@@ -172,6 +172,24 @@ $viewSlug = "/100days/";
       </div>
     </div>
     
+    <div class="day">
+      <h2>Day 9</h2>
+        <img src="/100days/images/day_9.png">
+      <div class="techs">
+        <p class="tech">HTML</p>
+        <p class="tech">CSS</p>
+        <p class="tech">Javascript</p>
+      </div>
+      <div class="viewBtn view">
+        <a href="<? echo $viewSlug . "9" . "/" ?>" target="_blank">View</a>
+      </div>
+      <div class="viewBtn">
+        <a href="<? echo $gitSlug . '9' ?>" target="_blank">
+          <img src="<? echo $gitLogo ?>">
+        </a>
+      </div>
+    </div>
+    
     
     
     
